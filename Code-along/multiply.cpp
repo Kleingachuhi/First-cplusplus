@@ -11,4 +11,5 @@ int main(){
     } else {
         cout<< num * 5 << "\n";
     }
+ 
 }
