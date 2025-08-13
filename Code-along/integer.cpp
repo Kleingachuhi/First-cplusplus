@@ -50,23 +50,42 @@
 //     cout << M << "\n";
 //     M+=1;
 //  }
- 
+
+
 // }
 
 
-#include <iostream>
+// #include <iostream>
 
+// using namespace std;
+
+// int main () {
+//     int num =1;
+
+//     while (num <=12)
+//     {
+//        cout << "3 x "  << num  << " = " << 3 * num << "\n";
+//        num +=1;
+//     }
+
+    
+    
+//  }
+
+
+
+#include <iostream>
 using namespace std;
 
 int main () {
-    int num =1;
-
-    while (num <=12)
+    int N = 0;
+    int Sum = 0;
+    do
     {
-       cout << "3 x "  << num  << " = " << 3 * num << "\n";
-       num +=1;
-    }
+        N ++;
+        Sum = Sum  + N;
+} while (N<3);
 
-    
-    
- }
+cout << "Sum : " << Sum << "\n";
+
+}
