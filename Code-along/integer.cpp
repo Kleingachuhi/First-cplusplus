@@ -21,18 +21,52 @@
 
 
 
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int number;
+
+//     cout << "Enter a number :";
+//     cin >>number;
+
+//     if (number > 10 && number < 20) {
+//         cout << "The number entered is between ten and twenty";
+//     } else {
+//         cout << "The number entered is not between ten and twenty";
+//     }
+// }
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main () {
+//     int M = 1;
+    
+//  while (M <=3 )
+//  {
+  
+//     cout << M << "\n";
+//     M+=1;
+//  }
+ 
+// }
+
+
 #include <iostream>
+
 using namespace std;
 
-int main() {
-    int number;
+int main () {
+    int num =1;
 
-    cout << "Enter a number :";
-    cin >>number;
-
-    if (number > 10 && number < 20) {
-        cout << "The number entered is between ten and twenty";
-    } else {
-        cout << "The number entered is not between ten and twenty";
+    while (num <=12)
+    {
+       cout << "3 x "  << num  << " = " << 3 * num << "\n";
+       num +=1;
     }
-}
+
+    
+    
+ }
