@@ -115,18 +115,32 @@
 // }
 
 
+// #include <iostream>
+// using namespace std;
+
+// int main () {
+//     int even;
+//     int sum =0;
+
+//     for (even= 2; even <=10; even+=2)
+//     {
+//         sum +=even;
+//        cout << even << "\n";
+//     }
+//     cout << "The sum is " << sum << "\n";
+    
+// }
+
+
 #include <iostream>
 using namespace std;
 
-int main () {
-    int even;
-    int sum =0;
-
-    for (even= 2; even <=10; even+=2)
-    {
-        sum +=even;
-       cout << even << "\n";
-    }
-    cout << "The sum is " << sum << "\n";
+int main() {
+    int timer;
     
+    for (timer = 10; timer >= 0; timer--)
+    {
+       cout << timer << " seconds remaining " << "\n";
+    }
+    cout << "Time is up Stand up !!!" << "\n";
 }
