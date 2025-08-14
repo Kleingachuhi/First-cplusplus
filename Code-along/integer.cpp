@@ -74,18 +74,59 @@
 
 
 
+// #include <iostream>
+// using namespace std;
+
+// int main () {
+//     int N = 0;
+//     int Sum = 0;
+//     do
+//     {
+//         N ++;
+//         Sum = Sum  + N;
+// } while (N<3);
+
+// cout << "Sum : " << Sum << "\n";
+
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main () {
+//     int num =2;
+//     int sum =0;
+
+//    while (num <=10)
+//    {
+//        if (num%2 ==0)
+//        {
+//            sum +=num;
+//            cout << num << " is even" << "\n";
+           
+//         } 
+//         num ++;
+// }
+// cout << "The sum is " <<sum << "\n";
+   
+    
+// }
+
+
 #include <iostream>
 using namespace std;
 
 int main () {
-    int N = 0;
-    int Sum = 0;
-    do
+    int even;
+    int sum =0;
+
+    for (even= 2; even <=10; even+=2)
     {
-        N ++;
-        Sum = Sum  + N;
-} while (N<3);
-
-cout << "Sum : " << Sum << "\n";
-
+        sum +=even;
+       cout << even << "\n";
+    }
+    cout << "The sum is " << sum << "\n";
+    
 }
