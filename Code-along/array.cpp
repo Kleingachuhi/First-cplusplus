@@ -9,17 +9,25 @@ int main(){
 // cout << names[4];
 
 // int nums[5];
+int sum;
 int i;
 int myMarks[5];
-for ( i = 1; i < 6; i++)
+for ( i = 0; i < 6; i++)
 {
    cout << "Enter Exam Marks :";
    cin >> myMarks[i];
-   
+   cout << myMarks[i] << "\n";
 }
-cout << myMarks[1] << "\n";
-cout << myMarks[2] << "\n";
-cout << myMarks[3] << "\n";
-cout << myMarks[4] << "\n";
-cout << myMarks[5] << "\n";
+// cout << myMarks[1] << "\n";
+// cout << myMarks[2] << "\n";
+// cout << myMarks[3] << "\n";
+// cout << myMarks[4] << "\n";
+// cout << myMarks[5] << "\n";
+
+for ( i = 1; i < 6; i++)
+{
+    cout << myMarks[i] << "\n";
+    sum = sum + myMarks[i];
+}
+cout << sum << "\n";
 }
